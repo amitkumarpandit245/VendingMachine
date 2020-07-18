@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <interface id="1" language="java" name="com.deloitte.vending.VendingMachine" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/vending/VendingMachine.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="261" x="955" y="332"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="com.deloitte.exceptions.ItemNotAvailableException" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/exceptions/ItemNotAvailableException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="188" x="21" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="3" language="java" name="com.deloitte.product.Item" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/product/Item.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="120" x="1256" y="332"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="4" language="java" name="com.deloitte.exceptions.NotSufficientChangeException" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/exceptions/NotSufficientChangeException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="208" x="249" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.deloitte.inventory.Inventory" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/inventory/Inventory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="150" x="1416" y="332"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="com.deloitte.coin.Coin" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/coin/Coin.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="127" x="497" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="com.deloitte.factory.VendingMachineFactory" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/factory/VendingMachineFactory.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="226" x="664" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.deloitte.exceptions.NotFullPaidException" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/exceptions/NotFullPaidException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="184" x="930" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.deloitte.bucket.Bucket" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/bucket/Bucket.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="111" x="1154" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.deloitte.vending.VendingMachineImp" project="VendingMachine" 
+    file="/VendingMachine/src/main/java/com/deloitte/vending/VendingMachineImp.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="351" width="261" x="1305" y="-59"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="11">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="12">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="13" name="itemInventory"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="16" name="cashInventory"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="19" name="currentItem"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
